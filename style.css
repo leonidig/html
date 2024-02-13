@@ -47,6 +47,7 @@ a:active{
 .container {
     max-width: 900px;
     margin: auto;
+    padding-top: 30px;
 }
 
 
@@ -88,7 +89,24 @@ a:active{
 }
 
 .info {
+    display: flex;
     margin-bottom: 17px;
+
+}
+
+@media (max-width: 700px) {
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px ;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
 }
 
 .card h2 {
@@ -114,11 +132,88 @@ a:active{
     padding-bottom: 10px;
 }
 
+
 .table td:nth-child(2), 
 .table td:nth-child(3) {
     color: #86898f;
 }
 
-/* .link-list {
-    list-style: ;
-} */
+.my-table {
+    width: 100%;
+
+}
+
+.my-table td {
+    padding-bottom: 10px;
+}
+
+
+.my-table td:nth-child(2), 
+.my-table td:nth-child(3) {
+    color: #86898f;
+}
+
+
+
+.link-list li{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+} 
+
+.contact h2 {
+    text-align: center;
+}
+
+.conection label{ 
+    display: block;
+    font-size: 20px;
+    color: #86898f;
+}
+
+
+.conection input,
+.conection textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    font-size: 15px;
+    color: #000;
+    padding: 15px 0 10px;
+    font-family: inherit;
+    outline: none;
+} 
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .conection {
+    width: 50%;
+}
+
+.row > .conection:first-child {
+    margin-right: 0px;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color:  #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    width: 129px;
+    border-radius: 18px;
+    box-shadow: 4px 4px 14px rgb(29, 2, 2);
+}
+
+/* POSITION */
+

@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Pageeeee</title>
+    <title>Leonid page</title>
     <link href="/style.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
     <div class="info">
-            <img src="images/my.image.jpg" alt="Моё фото"class="avatar"/>
-            <h1>Леонид Лисовский</h1>
-            <p>Я тим-лидер команды <strong>"Змииные Новаторы"</strong></p>
-            <p>Я люблю програмировать и заниматься спортом!</p>
+            <img src="my.image.jpg" alt="Моё фото"class="avatar"/>
             
-            <h4>Мои социальные сети</h4>
-                <a href="https://www.tiktok.com/@leonss1.11" target="_blank"><strong>Тик - Ток</strong></a>
-                |
-                <a href="https://github.com/leonidig/new_era" target="_blank"><strong>Гит - Хаб</strong></a>
-        
+            <div class="info-text">
+                <h1>Леонид Лисовский</h1>
+                <p>Я тим-лидер команды <strong>"Змииные Новаторы"</strong></p>
+                <p>Я люблю програмировать и заниматься спортом!</p>
+                
+                <h4>Мои социальные сети</h4>
+                    <a href="https://www.tiktok.com/@leonss1.11" target="_blank"><strong>Тик - Ток</strong></a>
+                    |
+                    <a href="https://github.com/leonidig/new_era" target="_blank"><strong>Гит - Хаб</strong></a>
+            </div>
       </div>
 
     
@@ -66,7 +68,7 @@
    <hr>
    <div class="card bg-red">
         <h2>Личный опыт</h2>
-        <table>  
+        <table class="my-table">  
         <tr>
                 <td>Языки</td>
                 <td>Проекты</td>
@@ -89,50 +91,46 @@
             <li>
                 <a href="https://goiteens.com" target="_blank">Курсы GoITeens</a>
             </li>
-            
+            <br>
             <li> 
                 <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU&t=3115s"target="_blank">Курсы при поддержке которых написан этот сайт</a>
             </li>
-
+            <br>
             <li>
                 <a href="https://www.youtube.com/@Bogdan_Stashchuk/videos">Курсы по Python / Html / CSS / Javascript / Docker / Kubernetes / Node JS / Git / и многое другое</a>
             </li>
-        
+            <br>
         </ul>
     </div>
 
+    <div class="contact">
     <h2>Связаться со мной</h2>
 
     <form action="/">
-        <label for="name">Ваше имя: </label>
-        <input type="text" id="name"
-        placeholder="Введите ваше имя...">
+        <div class="row">
+        <div class="conection">
+                <label for="name">Ваше имя: </label>
+                <input type="text" id="name"
+                placeholder="Введите ваше имя...">
+            </div>
+            <div class="conection">
+                <label for="email">Ваш Email: </label>
+                <input type="email" id="email"
+                placeholder="Введите email...">
+        </div>
+        </div>
 
-        <br> <br>
+        <div class="conection">
+            <label for="text">Ваше сообщение: </label>
+            <textarea id="text" cols="12" rows="2"></textarea>
+        </div>
 
-            <label for="email">Ваш Email: </label>
-            <input type="email" id="email"
-            placeholder="Введите email...">
-        
-        <br><br>
-        
-        <label for="text">Ваше сообщение: </label>
-        <textarea id="text" cols="12" rows="2"></textarea>
-
-        <br>
-        <input type="submit" value="Связаться!">
-    </form>
-    <hr>
-
-    <div class="box-model">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+            <input class="btn" type="submit"
+            value="Связаться!">
+        </form>
     </div>
-
+    </div>
         <div style="margin-bottom: 500px;"></div>
-
         <hr>
     </div> 
     </body>
