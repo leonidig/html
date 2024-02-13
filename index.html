@@ -3,38 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Pageeeee</title>
     <link href="/style.css" rel="stylesheet">
 </head>
 <body>
-    <table cellspacing="25">
+    <div class="container">
+    <div class="info">
+            <img src="images/my.image.jpg" alt="Моё фото"class="avatar"/>
+            <h1>Леонид Лисовский
+            <p>Я тим-лидер команды <strong>"Змииные Новаторы"</strong></p>
+            <p>Я люблю програмировать и заниматься спортом!</p>
+            
+            <h4>Мои социальные сети</h4>
+                <a href="https://www.tiktok.com/@leonss1.11" target="_blank"><strong>Тик - Ток</strong></a>
+                |
+                <a href="https://github.com/leonidig/new_era" target="_blank"><strong>Гит - Хаб</strong></a>
+        
+      </div>
+
+    
+    <hr>
+    <div class="card bg-yellow">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+            <li>Програмирование</li>
+            <li>Спорт: зал, футбол</li>
+            <li>Играть в компьютерны игры</li>
+        </ol>
+    </div>
+
+    <hr>
+
+    
+    <div class="card bg-green">
+        <h2>Опыт работы</h2>
+            <strong>
+            <table class="table">
+            <tr>
+                <td>Команда</td>
+                <td>Должность</td>
+                <td>Год</td>
+                <tr>
+                    <td>Genii Python`a</td>
+                    <td>Тим - Лидер / Фул-Стек</td>
+                    <td>2023 - 2024</td>
+                </tr>
+            
+            <tr>
+                <td>Змииные Новаторы</td>
+                <td>Тим - Лидер / Фул-Стек</td>
+                <td>2023 - н.в</td>
+            </tr>
+            
+            <tr>
+                <td>EPON</td>
+                <td>Фул-Стек</th>
+                <td>2024 - н.в</td>
+            </tr>
+        
+        </table>   
+   </div> 
+   <hr>
+   <div class="card bg-red">
+        <h2>Личный опыт</h2>
+        <table>  
         <tr>
-            <td><img src="images/my.image.jpg" alt="Моё фото" width="200"></td>
-            <td><h1>Леонид Лисовский</h1>
-                <p><em>Я тим-лидер команды <strong>"Змииные Новаторы"</strong></em></p>
-                <p>Я люблю програмировать и заниматься спортом!</p></td>
-        </tr>
-    </table>
-    
-    
+                <td>Языки</td>
+                <td>Проекты</td>
+                <td>Занятия</td>
+            </tr>
+            <tr>
+                <td>Python ;  HTML ;  CSS</td>
+                <td>Мини сайт ; Игры</td>
+                <td>Обучаю друга</td>
+            </tr>
+        </table>
+
+    </div>
+    </strong>
     <hr>
 
-    <h2>Мои социальные сети</h2>
-    <ul style="list-style-type:circle">
-        <li><a href="https://www.tiktok.com/@leonss1.11" target="_blank">Тик - Ток</a></li>
-        <li><a href="https://github.com/leonidig/new_era" target="_blank">Гит - Хаб</a></li>
-    </ul>
-    
-    <hr>
+    <div class="card bg-blue">
+        <h2>Мои любимые курсы</h2>
+        <ul>
+            <li>
+                <a href="https://goiteens.com" target="_blank">Курсы GoITeens</a>
+            </li>
+            
+            <li> 
+                <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU&t=3115s"target="_blank">Курсы при поддержке которых написан этот сайт</a>
+            </li>
 
-    <h2>Мои социальные хобби</h2>
-    <ol>
-        <li>Програмирование</li>
-        <li>Спорт: зал, футбол</li>
-        <li>Играть в компьютерны игры</li>
-    </ol>
-
-    <hr>
+            <li>
+                <a href="https://www.youtube.com/@Bogdan_Stashchuk/videos">Курсы по Python / Html / CSS / Javascript / Docker / Kubernetes / Node JS / Git / и многое другое</a>
+            </li>
+        
+        </ul>
+    </div>
 
     <h2>Связаться со мной</h2>
 
@@ -45,9 +110,9 @@
 
         <br> <br>
 
-        <label for="email">Ваш Email: </label>
-        <input type="email" id="email"
-        placeholder="Введите email...">
+            <label for="email">Ваш Email: </label>
+            <input type="email" id="email"
+            placeholder="Введите email...">
         
         <br><br>
         
@@ -57,46 +122,18 @@
         <br>
         <input type="submit" value="Связаться!">
     </form>
-
-
-
     <hr>
 
-    <h2>Опыт работы</h2>
-    <table border="2">
-        <tr>
-            <th>Команда</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </tr>
-        <tr>
-            <td>Змииные Новаторы</td>
-            <td>Тим - Лидер</td>
-            <td>2023 - н.в</td>
-        </tr>
-    </table>    
-        
-    <h3>Личный опыт</h3>
-    <table border="2">
-        <tr>
-            <th>Языки</th>
-            <th>Проекты</th>
-            <th>Занятия</th>
-        </tr>
-        <tr>
-            <td>Python ; HTML ; CSS</td>
-            <td>Мини сайт ; Игры</td>
-            <td>Обучаю друга</td>
-        </tr>
-    </table>
+    <div class="box-model">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
 
-    <hr>
+        <div style="margin-bottom: 500px;"></div>
 
-    <h2>Мои любимые курсы</h2>
-    <a href="courses.html" target="_blank">Посмотреть список</a>
-
-    <hr>
-
-
-</body>
+        <hr>
+    </div> 
+    </body>
 </html>
